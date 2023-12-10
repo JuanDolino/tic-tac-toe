@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>TIC TAC TOE</title>
+</head>
+<body>
+  <div class="resultAlert">
+    <p class="winnerText">X venceu</p>
+
+    <p class="restartGameText">Deseja reiniciar o jogo?</p>
+    <div>
+      <button onclick="takeAnswer('YES')">Sim</button>
+      <button onclick="takeAnswer('NO')">Não</button>
+    </div>
+  </div>
+
+  <div class="gameBody">
+
+    <div class="row firstRow">
+      <div class="square" onclick="insertElement(this, 0)"></div>
+      <div class="square" onclick="insertElement(this, 1)"></div>
+      <div class="square" onclick="insertElement(this, 2)"></div>
+    </div>
+    <div class="row secondRow">
+      <div class="square" onclick="insertElement(this, 0)"></div>
+      <div class="square" onclick="insertElement(this, 1)"></div>
+      <div class="square" onclick="insertElement(this, 2)"></div>
+    </div>
+    <div class="row thirdRow">
+      <div class="square" onclick="insertElement(this, 0)"></div>
+      <div class="square" onclick="insertElement(this, 1)"></div>
+      <div class="square" onclick="insertElement(this, 2)"></div>
+    </div>
+
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
