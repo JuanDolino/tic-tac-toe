@@ -1,8 +1,8 @@
 let playTime = "X", checkIfOWins, checkIfXWins, whoWins;
 
-let matrix =  [ [],
-                [],
-                []]
+let matrix =  [ ["", "", ""],
+                ["", "", ""],
+                ["", "", ""]]
 
 let popUp = document.querySelector(".resultAlert");
 let squares = document.querySelectorAll(".square")
@@ -40,7 +40,7 @@ function insertElement(element, position) {
   checkColumns()
   checkDiagonal()
 
-  whoWins = whoWins == undefined && matrix[0].length == 3 && matrix[1].length == 3 && matrix[2].length == 3 ? "O jogo empatou" : whoWins;
+  whoWins = whoWins == undefined && matrix[0].includes("") == false && matrix[1].includes("") == false && matrix[2].includes("") == false ? "O jogo empatou" : whoWins;
 
   winnerText.innerText = whoWins;
 
@@ -135,8 +135,8 @@ function takeAnswer(answer) {
     }, 500);
 
 
-    matrix =  [[],
-              [],
-              []]    
+    matrix =  [["", "", ""],
+              ["", "", ""],
+              ["", "", ""]]    
   }
 }
