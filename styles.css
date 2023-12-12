@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: #54494B;
+  background-color: #292426;
 
   height: 100vh;
 }
@@ -97,11 +97,9 @@ body {
   opacity: 1;
   flex-direction: column;
   top: 30px;
-  padding: 30px 60px;
-  z-index: 1;
+  width: 600px;
+  padding: 20px;
   position: absolute;
-
-  border-radius: 20px;
 
   background-color: #292426;
   color: #ffffff;
@@ -109,7 +107,7 @@ body {
   justify-content: center;
   align-items : center;
 
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 
 .winnerText {
