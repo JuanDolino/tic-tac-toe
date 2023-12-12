@@ -86,7 +86,7 @@ body {
   border-right: 1px solid #F1F7ED;
 }
 
-.imageX, .imageO {
+img {
   position: absolute;
   animation: fadeInAnimation 0.3s;
 }
