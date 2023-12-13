@@ -3,7 +3,8 @@ const createBoard = () => {
   let row, square;
 
 
-  // this function create each row and square on the div "gameBody"
+// That function create each row and square on the div "gameBody"
+
   for (let i = 0; i < 3; i++) {
     row = document.createElement("div");
     row.setAttribute("class", `row ${i}`);

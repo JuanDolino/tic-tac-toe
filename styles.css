@@ -91,7 +91,7 @@ img {
   animation: fadeInAnimation 0.3s;
 }
 
-.resultAlert {
+.gameResultAlert {
 
   display: none;
   opacity: 1;
@@ -120,7 +120,7 @@ img {
   font-size: 25px;
 }
 
-.resultAlert button {
+button {
   padding: 10px 30px;
   margin: 0px 5px 0 5px;
   background-color: #54494B;
@@ -131,6 +131,6 @@ img {
   cursor: pointer;
 } 
 
-.resultAlert button:hover {
+button:hover {
   opacity: 0.5;
 }
